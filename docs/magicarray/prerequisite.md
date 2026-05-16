@@ -6,7 +6,7 @@
 
 ## Dependencies
 - **NumPy ≥ 1.20** – for array handling and benchmarking.
-- **Matplotlib ≥ 3.0** – for visualization and chart generation.
+- **Matplotlib ≥ 3.0** – for visualisation and chart generation.
 
 These are installed automatically when you install the package.
 
@@ -17,6 +17,6 @@ Learners should be comfortable with:
 - Writing simple classes with `__init__` and `__lt__`.
 
 ## Next Steps
-- [Installation](installation.md) → How to set up the library.
-- [API Reference](api.md) → Detailed method documentation.
+- [Installation](installation.md) → How to set up the library.  
+- [API Reference](api.md) → Detailed method documentation.  
 - [Tutorials](tutorials.md) → Guided examples with code and outputs.

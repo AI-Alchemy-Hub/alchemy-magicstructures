@@ -5,8 +5,8 @@
 It is designed to help learners understand dynamic arrays and sorting algorithms through:
 - **Core operations**: insert, delete, update, search.
 - **Sorting algorithms**: bubble, insertion, selection, merge, quick.
-- **Visualization**: automatic charts using Matplotlib.
-- **Benchmarking**: measure average runtime of algorithms.
+- **Visualisation**: automatic charts using Matplotlib.
+- **Benchmarking**: measure average run‑time of algorithms.
 
 This class is the **Milestone 1 (M1)** deliverable in the course syllabus, serving as the entry point for exploring advanced data structures with practical examples.
 
@@ -25,7 +25,7 @@ Most learners struggle to connect theory with practice. `MagicArray` bridges tha
 By the end of this module, learners will:
 1. Understand how arrays work internally.
 2. Implement and test multiple sorting algorithms.
-3. Visualize data transformations.
+3. Visualise data transformations.
 4. Benchmark algorithms for efficiency.
 5. Prepare for more complex structures in future milestones.
 

@@ -1,26 +1,38 @@
-# Alchemy MagicStructures
+# Project Documentation — Alchemy MagicStructures
 
-## Overview
-Alchemy‑MagicStructures is a pedagogical Python library designed to reimagine how learners engage with **Data Structures & Algorithms (DSA‑1)**. Each class begins with the prefix **Magic*** and implements all theoretically valid operations, dynamic capacity, benchmarking, visualization, and persistence.
+This folder contains the **internal documentation set** for the Alchemy-MagicStructures project.
 
-## Documentation
-- [vision.md](vision.md) – Philosophy and identity
-- [executive_summary.md](executive_summary.md) – One‑pager overview
-- [requirements.md](requirements.md) – Functional and non‑functional requirements
-- [roadmap.md](roadmap.md) – Phased development plan
-- [tutorials.md](tutorials.md) – Tutorial structure and principles
-- [architecture.md](architecture.md) – Class hierarchy and design
-- [testing.md](testing.md) – Testing strategy
-- [contributing.md](contributing.md) – Contribution guidelines
-- [changelog.md](changelog.md) – Version history
-- [glossary.md](glossary.md) – Key terms
-- [license.md](license.md) – Licensing terms
-- [styleguide.md](styleguide.md) – Coding conventions
+## Structure
+- `MagicArray/` — detailed module-level documentation
+  - `README.md` — entry point for MagicArray docs
+  - `magicarray.md` — technical details
+  - `requirements.md` — dependencies
+  - `tests.md` — test strategy
+  - `tutorials.md` — usage tutorials
+  - `changelog.md` — version history
+  - `milestone.md` — milestone tracking
+- Root-level docs
+  - `architecture.md` — system design
+  - `contributing.md` — contribution guidelines
+  - `documentation_workflow.md` — doc process
+  - `executive_summary.md` — high-level overview
+  - `glossary.md` — terminology
+  - `index.md` — documentation index
+  - `license.md` — license reference
+  - `milestone_checklist.md` — milestone progress
+  - `requirements.md` — project requirements
+  - `roadmap.md` — future plans
+  - `styleguide.md` — formatting rules
+  - `testing.md` — testing methodology
+  - `tutorials.md` — general tutorials
+  - `vision.md` — project vision
 
-## Quick Start
-```python
-from magicstructures import MagicArray
+## Purpose
+This documentation set is intended for:
+- Developers contributing to the project
+- Reviewers validating milestones
+- Internal stakeholders tracking progress
 
-arr = MagicArray([1, 2, 3], max_size=5)
-arr.push(4)
-arr.displayAndSave("array.png")
+## Notes
+- Keep this folder aligned with `/docs/` for consistency.
+- Use this as the **internal reference**, while `/docs/` serves as the **public-facing site**.

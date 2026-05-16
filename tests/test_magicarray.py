@@ -192,3 +192,53 @@ def test_visualization_mixed_types(tmp_path):
     # Visualization should still succeed (labels for non-numeric)
     arr.display_and_save(str(filename))
     assert os.path.exists(filename)
+    
+    
+# ---------------- Search Algorithms ----------------
+
+def test_linear_search_found():
+    arr = MagicArray([10, 20, 30])
+    assert arr.linear_search(20) == 1
+
+def test_linear_search_not_found():
+    arr = MagicArray([10, 20, 30])
+    assert arr.linear_search(99) == -1
+
+def test_binary_search_found():
+    arr = MagicArray([1, 3, 5, 7, 9])
+    assert arr.binary_search(7) == 3
+
+def test_binary_search_not_found():
+    arr = MagicArray([1, 3, 5, 7, 9])
+    assert arr.binary_search(4) == -1
+
+def test_traverse_returns_copy():
+    arr = MagicArray([100, 200, 300])
+    result = arr.traverse()
+    assert result == [100, 200, 300]
+    # Ensure it is a copy, not the same object
+    result.append(400)
+    assert arr.size == 3
+    assert arr.elements == [100, 200, 300]
+
+# ---------------- Exception Handling ----------------
+
+def test_delete_underflow_error():
+    arr = MagicArray([])
+    with pytest.raises(UnderflowError):
+        arr.delete(0)
+
+def test_insert_overflow_error():
+    arr = MagicArray([1, 2, 3], max_size=3)
+    with pytest.raises(OverflowError):
+        arr.insert(3, 4)
+
+def test_update_index_error():
+    arr = MagicArray([1, 2])
+    with pytest.raises(IndexError):
+        arr.update(5, 99)
+
+def test_sort_invalid_algorithm():
+    arr = MagicArray([1, 2, 3])
+    with pytest.raises(ValueError):
+        arr.sort("unknown")

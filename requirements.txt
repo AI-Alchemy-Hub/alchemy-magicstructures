@@ -1,0 +1,10 @@
+# Core dependencies
+pytest==7.4.3
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.0
+
+# Optional: plotting for visualisation
+matplotlib==3.8.4
+numpy==1.26.4
