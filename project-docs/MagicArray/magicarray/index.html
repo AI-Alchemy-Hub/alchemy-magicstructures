@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://ai-alchemy-hub.github.io/alchemy-magicstructures/">
+        <link rel="canonical" href="https://ai-alchemy-hub.github.io/alchemy-magicstructures/project-docs/MagicArray/magicarray/">
       
       
+        <link rel="prev" href="../../tutorials/">
       
-        <link rel="next" href="magicarray/intro/">
+      
+        <link rel="next" href="../requirements/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.0">
     
     
       
-        <title>Alchemy MagicStructures Docs</title>
+        <title>Overview - Alchemy MagicStructures Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.45e1311d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.45e1311d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#magicarray-class-reference" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -79,7 +86,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Alchemy MagicStructures Docs" class="md-header__button md-logo" aria-label="Alchemy MagicStructures Docs" data-md-component="logo">
+    <a href="../../.." title="Alchemy MagicStructures Docs" class="md-header__button md-logo" aria-label="Alchemy MagicStructures Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -99,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Overview
             
           </span>
         </div>
@@ -180,11 +187,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -203,7 +208,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="magicarray/intro/" class="md-tabs__link">
+        <a href="../../../magicarray/intro/" class="md-tabs__link">
           
   
   MagicArray
@@ -217,11 +222,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="project-docs/vision/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../vision/" class="md-tabs__link">
           
   
   Project Docs
@@ -254,7 +261,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Alchemy MagicStructures Docs" class="md-nav__button md-logo" aria-label="Alchemy MagicStructures Docs" data-md-component="logo">
+    <a href="../../.." title="Alchemy MagicStructures Docs" class="md-nav__button md-logo" aria-label="Alchemy MagicStructures Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -281,17 +288,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -300,7 +300,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -352,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="magicarray/intro/" class="md-nav__link">
+      <a href="../../../magicarray/intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -373,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="magicarray/prerequisite/" class="md-nav__link">
+      <a href="../../../magicarray/prerequisite/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -394,7 +393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="magicarray/installation/" class="md-nav__link">
+      <a href="../../../magicarray/installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -415,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="magicarray/api/" class="md-nav__link">
+      <a href="../../../magicarray/api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -436,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="magicarray/tutorials/" class="md-nav__link">
+      <a href="../../../magicarray/tutorials/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -461,8 +460,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -471,12 +472,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -490,7 +491,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Project Docs
@@ -504,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/vision/" class="md-nav__link">
+      <a href="../../vision/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -525,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/roadmap/" class="md-nav__link">
+      <a href="../../roadmap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -546,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/styleguide/" class="md-nav__link">
+      <a href="../../styleguide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -567,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/architecture/" class="md-nav__link">
+      <a href="../../architecture/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -588,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/executive_summary/" class="md-nav__link">
+      <a href="../../executive_summary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -609,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/requirements/" class="md-nav__link">
+      <a href="../../requirements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -630,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/milestone_checklist/" class="md-nav__link">
+      <a href="../../milestone_checklist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -651,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/testing/" class="md-nav__link">
+      <a href="../../testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -672,7 +673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/contributing/" class="md-nav__link">
+      <a href="../../contributing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -693,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/documentation_workflow/" class="md-nav__link">
+      <a href="../../documentation_workflow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -714,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/license/" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -735,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/changelog/" class="md-nav__link">
+      <a href="../../changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -756,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -777,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/tutorials/" class="md-nav__link">
+      <a href="../../tutorials/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -795,19 +796,21 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_15" checked>
         
           
           <label class="md-nav__link" for="__nav_3_15" id="__nav_3_15_label" tabindex="0">
@@ -821,7 +824,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_15_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_15_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_15">
             <span class="md-nav__icon md-icon"></span>
             MagicArray Module
@@ -832,10 +835,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="project-docs/MagicArray/magicarray/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -844,6 +867,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#constructors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Constructors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Example
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -856,7 +944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/MagicArray/requirements/" class="md-nav__link">
+      <a href="../requirements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -877,7 +965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/MagicArray/milestone/" class="md-nav__link">
+      <a href="../milestone/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -898,7 +986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/MagicArray/tests/" class="md-nav__link">
+      <a href="../tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -919,7 +1007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/MagicArray/tutorials/" class="md-nav__link">
+      <a href="../tutorials/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -940,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="project-docs/MagicArray/changelog/" class="md-nav__link">
+      <a href="../changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -986,6 +1074,61 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#constructors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Constructors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Example
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1003,9 +1146,39 @@
   
 
 
-  <h1>Home</h1>
-
-
+<h1 id="magicarray-class-reference">MagicArray Class Reference</h1>
+<h2 id="overview">Overview</h2>
+<p>MagicArray is the foundational class in Alchemy‑MagicStructures. It demonstrates dynamic arrays with complete operations, visualization, and benchmarking.</p>
+<h2 id="constructors">Constructors</h2>
+<ul>
+<li><code>MagicArray()</code> → empty array</li>
+<li><code>MagicArray([elements])</code> → pre‑filled array</li>
+<li><code>MagicArray(max_size=N)</code> → array with capacity constraint</li>
+<li><code>MagicArray(source="file.csv")</code> → load from external source</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<ul>
+<li><code>insert(index, value)</code></li>
+<li><code>delete(index)</code></li>
+<li><code>update(index, value)</code></li>
+<li><code>search(value)</code></li>
+<li><code>sort(algorithm="quick")</code></li>
+<li><code>expand()</code>, <code>shrink()</code></li>
+<li><code>displayAndSave(filename="array.png")</code></li>
+<li><code>benchmark(algorithm)</code></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<ul>
+<li><code>size</code> → current number of elements</li>
+<li><code>capacity</code> → maximum allowed size</li>
+<li><code>elements</code> → internal storage list</li>
+</ul>
+<h2 id="usage-example">Usage Example</h2>
+<p>```python
+arr = MagicArray([1, 2, 3], max_size=5)
+arr.insert(2, 99)
+arr.sort("merge")
+arr.displayAndSave("array.png")</p>
 
 
 
@@ -1058,10 +1231,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
