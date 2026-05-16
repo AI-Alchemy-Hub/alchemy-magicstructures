@@ -1,0 +1,13 @@
+site_name: Alchemy-MagicStructures
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - MagicArray:
+      - Introduction: magicarray/intro.md
+      - Prerequisites: magicarray/prerequisite.md
+      - Installation: magicarray/installation.md
+      - API Reference: magicarray/api.md
+      - Tutorials: magicarray/tutorials.md
+

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/alchemy_magicstructures/__init__.py
+src/alchemy_magicstructures/magicarray.py
+src/alchemy_magicstructures.egg-info/PKG-INFO
+src/alchemy_magicstructures.egg-info/SOURCES.txt
+src/alchemy_magicstructures.egg-info/dependency_links.txt
+src/alchemy_magicstructures.egg-info/requires.txt
+src/alchemy_magicstructures.egg-info/top_level.txt
+tests/test_magicarray.py

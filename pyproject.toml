@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alchemy-magicstructures"
+version = "0.2.0"
+description = "Alchemy-MagicStructures: A library of advanced data structures with visualization, benchmarking, and error simulation."
+readme = "README.md"
+license = "GPL-3.0-only"
+authors = [
+    { name = "Satya Prakash Nigam", email = "spnigam25@yahoo.com" }
+]
+keywords = ["data structures", "algorithms", "visualization", "benchmarking", "education"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "matplotlib>=3.0",
+    "numpy>=1.20"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
